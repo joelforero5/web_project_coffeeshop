@@ -108,10 +108,12 @@ p {
   color: #838383;
 }
 .header__paragraph {
-  align-self: flex-end;
   font-weight: 500;
   line-height: 20px;
   color: #838383;
+}
+.header__paragraph_right {
+  align-self: flex-end;
 }
 .recipes {
   display: flex;
