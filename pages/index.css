@@ -96,8 +96,11 @@ p {
 }
 .header__footer {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   bottom: 40px;
   left: 80px;
+  right: 80px;
 }
 .header__footer-text {
   font-weight: 500;
@@ -105,12 +108,10 @@ p {
   color: #838383;
 }
 .header__paragraph {
-  position: absolute;
+  align-self: flex-end;
   font-weight: 500;
   line-height: 20px;
   color: #838383;
-  bottom: 40px;
-  right: 80px;
 }
 .recipes {
   display: flex;
