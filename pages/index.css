@@ -80,13 +80,13 @@ p {
   line-height: 72px;
 }
 
-.header__title-span--accent {
+.header__title-span_accent {
   font-style: italic;
   font-size: 58px;
   color: #2f80ed;
 }
 
-.header__title-span--black {
+.header__title-span_black {
   font-weight: 500;
   font-size: 58px;
   letter-spacing: 1px;
@@ -195,7 +195,7 @@ p {
 .recipes__videos-item__video {
 }
 
-.recipes__videos-item__caption {
+.recipes__videos-item-caption {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -206,9 +206,9 @@ p {
   margin: 0;
 }
 
-.recipes__videos-item__title {
+.recipes__videos-item-caption-title {
   margin: 0;
 }
-.recipes__videos-item__length {
+.recipes__videos-item-caption-length {
   margin: 0;
 }
