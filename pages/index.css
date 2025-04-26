@@ -156,9 +156,9 @@ p {
   max-width: 100%;
   padding-top: 80px;
   padding-bottom: 215px;
-
   column-gap: 40px;
 }
+
 .recipes__videos-item {
   display: flex;
   flex-direction: column;
@@ -168,18 +168,30 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
-.recipes__videos-item--video {
+
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: none;
 }
-.recipes__videos-item--caption {
+
+.recipes__videos-item__video {
+}
+
+.recipes__videos-item__caption {
   display: flex;
   justify-content: space-between;
-  align-self: flex-start;
+  width: 100%;
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
+}
+
+.recipes__videos-item__title {
+  margin: 0;
+}
+.recipes__videos-item__length {
   margin: 0;
 }
