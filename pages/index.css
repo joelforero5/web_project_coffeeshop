@@ -306,7 +306,7 @@ p {
   vertical-align: middle;
   position: relative;
 }
-.form__label--checkbox {
+.checkbox-label {
   display: flex;
   align-items: center;
   font-size: 14px;
