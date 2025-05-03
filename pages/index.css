@@ -229,7 +229,7 @@ p {
   padding-bottom: 120px;
   margin: 0;
 }
-.reservation_title {
+.reservation__title {
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
