@@ -143,12 +143,12 @@ p {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
+  margin-bottom: 0;
 }
 .recipes__title {
-  align-self: flex-start;
+  align-self: center;
   max-width: 580px;
   margin: 0;
-
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -171,7 +171,7 @@ p {
   align-items: center;
   max-height: 100%;
   max-width: 100%;
-  padding-top: 80px;
+  margin-top: 80px;
   padding-bottom: 215px;
   column-gap: 40px;
 }
@@ -190,6 +190,8 @@ p {
   width: 480px;
   height: 273px;
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes__videos-item__video {
@@ -204,6 +206,7 @@ p {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  padding: 0;
 }
 
 .recipes__videos-item-caption-title {
@@ -211,4 +214,98 @@ p {
 }
 .recipes__videos-item-caption-length {
   margin: 0;
+}
+.reservation {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  margin: 0;
+}
+.reservation_title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+/* Estilos reutilizables - clase form */
+.form fieldset {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  margin-top: 0;
+  height: 60px;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.form__button {
+  height: 60px;
+  padding: 15px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-family: Inter;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
+}
+
+.form__label--checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
 }
