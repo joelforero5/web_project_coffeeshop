@@ -235,8 +235,8 @@ p {
   font-size: 44px;
   line-height: 52px;
   align-self: center;
-  margin-top: 0;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
+  padding: 0;
 }
 .reservation__form {
   max-width: 385px;
