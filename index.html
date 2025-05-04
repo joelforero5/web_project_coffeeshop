@@ -7,7 +7,6 @@
     <meta name="description" content="Coffe shop" />
     <meta name="keywords" content="Coffe, Recipes, Reservations" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -162,43 +161,51 @@
         </section>
       </main>
       <footer class="footer" id="footer">
-        <div class="footer__columns">
-          <div class="footer__column">
-            <img
-              class="footer__logo"
-              src="./images/logo_coffeeshop_light.svg"
-              alt="footer logo"
-            />
-            <p class="footer__copyright">© 2025 Joel Forero</p>
-          </div>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo claro"
+            class="footer__logo"
+          />
+
           <div class="footer__circle"></div>
 
-          <div class="footer__column footer__column_content_social">
-            <h4 class="footer__column-heading">Redes Sociales</h4>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">
+                <a
+                  href="https://facebook.com"
+                  class="footer__social-link"
+                  target="_blank"
+                >
                   <img
-                    class="footer__social-icon"
                     src="./images/facebook_white.svg"
-                    alt="Facebook icon"
+                    alt="Facebook"
+                    class="footer__social-icon"
                   />
-                  <span>Facebook</span>
+                  Facebook
                 </a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">
+                <a
+                  href="https://instagram.com"
+                  class="footer__social-link"
+                  target="_blank"
+                >
                   <img
-                    class="footer__social-icon"
                     src="./images/instagram_white.svg"
-                    alt="Instagram icon"
+                    alt="Instagram"
+                    class="footer__social-icon"
                   />
-                  <span>Instagram</span>
+                  Instagram
                 </a>
               </li>
             </ul>
           </div>
         </div>
+
+        <p class="footer__copyright">© 2025 Joel Forero</p>
       </footer>
     </div>
   </body>
