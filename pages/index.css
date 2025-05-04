@@ -1,3 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/form.css);
+@import url(../blocks/footer.css);
+/*
 h1,
 p {
   margin: 0;
@@ -29,7 +38,7 @@ p {
   background-size: cover;
 }
 
-/* NAV */
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -62,7 +71,7 @@ p {
   font-weight: bold;
 }
 
-/* HEADER CONTENT */
+
 .header__content {
   display: block;
 }
@@ -103,7 +112,7 @@ p {
   left: 80px;
 }
 
-/* HEADER IMAGE */
+
 .header__image {
   position: absolute;
   width: 646px;
@@ -112,7 +121,7 @@ p {
   right: 5px;
 }
 
-/* HEADER FOOTER */
+
 .header__footer {
   position: absolute;
   display: flex;
@@ -249,7 +258,7 @@ p {
   padding: 0;
 }
 
-/* Estilos reutilizables - clase form */
+
 .form fieldset {
   border: none;
   padding: 0;
@@ -318,3 +327,64 @@ p {
   background-position: center;
   background-size: 12px 12px;
 }
+.footer {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #0a2750;
+  color: white;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.footer__column_content_social {
+  margin-left: auto;
+}
+
+.footer__logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer__column-heading {
+  margin: 0 auto 20px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  row-gap: 16px;
+}
+
+.footer__list-item {
+}
+
+.footer__column-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  column-gap: 10px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+
+  color: #fff;
+}*/
