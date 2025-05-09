@@ -20,4 +20,9 @@ Hola, bienvenido a mi cuarto proyecto: **Coffee Shop**. Se trata de una landing 
 
    ```sh
    git clone https://github.com/joelforero5/web_project_coffeeshop.git
+
    ```
+
+   ## 🚀 Cómo ver este proyecto
+
+https://joelforero5.github.io/web_project_coffeeshop/
