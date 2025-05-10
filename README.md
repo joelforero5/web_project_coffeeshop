@@ -25,6 +25,6 @@ Hola, bienvenido a mi cuarto proyecto: **Coffee Shop**. Se trata de una landing 
 
     ## 🚀 Cómo ver este proyecto
 
-```
- https://joelforero5.github.io/web_project_coffeeshop/
-```
+    ```
+    https://joelforero5.github.io/web_project_coffeeshop/
+    ```
